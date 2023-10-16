@@ -38,7 +38,7 @@ COPY --from=prismarine /prismarine /prismarine
 # Copy the mods into the mods folder
 RUN mkdir -p /minecraft/mods
 
-RUN wget https://github.com/HashiCraft/fabric-microservices-mod/releases/download/v1.0.1/fabric-microservices-mod-1.0.0.jar \
+RUN wget https://github.com/HashiCraft/fabric-microservices-mod/releases/download/v1.0.2/fabric-microservices-mod-1.0.0.jar \
   -O /minecraft/mods/fabric-microservices-mod-1.0.0.jar
 
 RUN wget https://github.com/HashiCraft/fabric-hashicraft-mod/releases/download/v1.4.0/fabric-hashicraft-mod-1.4.0.jar \
